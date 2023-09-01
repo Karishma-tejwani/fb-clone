@@ -4,6 +4,7 @@ import Sidebar from './components/Sidebar';
 import Feed from './components/Feed';
 import RightSide from './components/RightSide';
 import { Stack } from '@mui/material';
+import Add from './components/Add';
 
 export default function Home() {
   return (
@@ -25,6 +26,7 @@ export default function Home() {
         <Feed />
         <RightSide />
       </Stack>
+      <Add />
     </>
   );
 }
