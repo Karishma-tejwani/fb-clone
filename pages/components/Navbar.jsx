@@ -39,8 +39,8 @@ const StyledToolbar = styled(Toolbar)({
 
 const Search = styled('div')(({ theme }) => ({
   backgroundColor: 'white',
-  // padding: '5px',
-  margin: '5px 5px',
+  padding: '5px 10px',
+  // margin: '5px 5px',
   borderRadius: theme.shape.borderRadius,
   width: '40%',
 }));
@@ -74,7 +74,7 @@ const Navbar = () => {
         </Typography>
         <FacebookIcon sx={{ display: { xs: 'block', sm: 'none' } }} />
         <Search>
-          <Autocomplete
+          {/* <Autocomplete
             freeSolo
             id="free-solo-2-demo"
             disableClearable
@@ -89,8 +89,8 @@ const Navbar = () => {
                 }}
               />
             )}
-          />
-          {/* <InputBase placeholder="Search Here..." /> */}
+          /> */}
+          <InputBase placeholder="Search Here..." />
         </Search>
         <Icons>
           <Badge badgeContent={4} color="error">
