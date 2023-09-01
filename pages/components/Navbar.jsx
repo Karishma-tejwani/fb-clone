@@ -67,7 +67,7 @@ const Navbar = () => {
   const [open, setOpen] = useState(false);
 
   return (
-    <AppBar position="fixed">
+    <AppBar position="sticky">
       <StyledToolbar sx={{ display: 'flex', justifyContent: 'space-between' }}>
         <Typography variant="h6" sx={{ display: { xs: 'none', sm: 'block' } }}>
           FB Clone
