@@ -18,7 +18,7 @@ import WorkHistoryIcon from '@mui/icons-material/WorkHistory';
 import ArticleIcon from '@mui/icons-material/Article';
 import ModeNightIcon from '@mui/icons-material/ModeNight';
 
-const Sidebar = () => {
+const Sidebar = ({mode, setMode}) => {
   return (
     <Box flex={1} p={2} sx={{ display: { xs: 'none', sm: 'block' } }}>
       <Box position="fixed">
@@ -84,7 +84,7 @@ const Sidebar = () => {
           <ListItemIcon>
             <ModeNightIcon />
           </ListItemIcon>
-          <Switch />
+          <Switch onChange={e => setMode(mode === "light" ? "dark" : "light")}/>
         </ListItemButton>
       </List>
       </Box>

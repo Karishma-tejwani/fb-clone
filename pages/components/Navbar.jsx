@@ -73,22 +73,6 @@ const Navbar = () => {
         </Typography>
         <FacebookIcon sx={{ display: { xs: 'block', sm: 'none' } }} />
         <Search>
-          {/* <Autocomplete
-            freeSolo
-            id="free-solo-2-demo"
-            disableClearable
-            options={topFilms.map((option) => option.title)}
-            renderInput={(params) => (
-              <TextField
-                {...params}
-                placeholder="Search Movies.."
-                InputProps={{
-                  ...params.InputProps,
-                  type: 'search',
-                }}
-              />
-            )}
-          /> */}
           <InputBase placeholder="Search Here..." />
         </Search>
         <Icons>

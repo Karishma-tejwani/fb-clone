@@ -47,7 +47,7 @@ const Add = () => {
         </Fab>
       </Tooltip>
       <StyledModal open={open} onClose={(e) => setOpen(false)}>
-        <Box width={400} height={280} bgcolor="white" p={3} borderRadius={3}>
+        <Box width={400} height={280} bgcolor={'background.default'} color={'text.primary'} p={3} borderRadius={3}>
           <Typography variant="h6" textAlign="center" color="gray">
             Create Post
           </Typography>
