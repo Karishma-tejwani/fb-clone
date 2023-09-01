@@ -33,7 +33,7 @@ const RightSide = () => {
   return (
     <Box flex={2} p={2} sx={{ display: { xs: 'none', sm: 'block' } }}>
       <Box position="fixed">
-        <Typography variant="h6" fontWeight={300} color={'grey'}>
+        <Typography variant="h6" fontWeight={300} color={'grey'} my={2}>
           Online Friends
         </Typography>
         <AvatarGroup max={7}>
@@ -47,7 +47,7 @@ const RightSide = () => {
           <Avatar alt="Friend2" src="/assets/dp6.PNG" />
           <Avatar alt="Friend3" src="/assets/dp5.jpeg" />
         </AvatarGroup>
-        <Typography variant="h6" fontWeight={300} color={'grey'} mt={1} mb={2}>
+        <Typography variant="h6" fontWeight={300} color={'grey'} mb={2}>
           Latest Photos
         </Typography>
         <ImageList cols={3} rowHeight={120} gap={5}>
