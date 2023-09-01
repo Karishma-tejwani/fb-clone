@@ -14,8 +14,13 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <Navbar />
-      <Stack direction="row" spacing={2} justifyContent={'space-between'}>
+      <Navbar pos />
+      <Stack
+        direction="row"
+        spacing={2}
+        my={5}
+        justifyContent={'space-between'}
+      >
         <Sidebar />
         <Feed />
         <RightSide />
