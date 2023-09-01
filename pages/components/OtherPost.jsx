@@ -20,7 +20,7 @@ import MoreVertIcon from '@mui/icons-material/MoreVert';
 const OtherPost = () => {
   return (
     <Box>
-      <Card>
+      <Card sx={{ margin: '15px' }}>
         <CardHeader
           avatar={
             <Avatar sx={{ bgcolor: purple[300] }} aria-label="recipe">
