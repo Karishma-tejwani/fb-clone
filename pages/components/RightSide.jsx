@@ -37,15 +37,15 @@ const RightSide = () => {
           Online Friends
         </Typography>
         <AvatarGroup max={7}>
-          <Avatar alt="Friend1" src="/assets/dp1.jpeg" />
-          <Avatar alt="Friend2" src="/assets/dp6.PNG" />
-          <Avatar alt="Friend3" src="/assets/dp5.jpeg" />
-          <Avatar alt="Friend4" src="/assets/dp2.jpg" />
-          <Avatar alt="Friend5" src="/assets/dp3.jpeg" />
-          <Avatar alt="Friend6" src="/assets/dp4.jpeg" />
-          <Avatar alt="Friend1" src="/assets/dp1.jpeg" />
-          <Avatar alt="Friend2" src="/assets/dp6.PNG" />
-          <Avatar alt="Friend3" src="/assets/dp5.jpeg" />
+          <Avatar alt="Girl" src="/assets/dp1.jpeg" />
+          <Avatar alt="Samar" src="/assets/dp6.PNG" />
+          <Avatar alt="Handsome" src="/assets/dp5.jpeg" />
+          <Avatar alt="Karshi" src="/assets/dp2.jpg" />
+          <Avatar alt="Neha" src="/assets/dp3.jpeg" />
+          <Avatar alt="Sadi" src="/assets/dp4.jpeg" />
+          <Avatar alt="Zoya" src="/assets/dp1.jpeg" />
+          <Avatar alt="Megha" src="/assets/dp6.PNG" />
+          <Avatar alt="Aisha" src="/assets/dp5.jpeg" />
         </AvatarGroup>
         <Typography variant="h6" fontWeight={300} color={'grey'} mb={2}>
           Latest Photos
